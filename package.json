@@ -1,0 +1,18 @@
+{
+  "name": "testerloop-app-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm -r dotenv/config ./index.ts",
+    "build": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "@testerloop/testerloop-app": "^0.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1"
+  }
+}
