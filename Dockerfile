@@ -1,3 +1,5 @@
+# Use this file as a template with the project files
+
 FROM node:18-alpine
 WORKDIR /var/task
 
