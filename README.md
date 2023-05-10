@@ -1,6 +1,6 @@
 # Testerloop App Demo
 
-This example shows how to create a simple npm package project to create a dockerfile.
+This example shows how to install and run testerloop-app in your custom npm project.
 
 # Add your Testerloop Github Token to gain access to the Testerloop's NPM Modules
 
