@@ -6,12 +6,14 @@
   "type": "module",
   "scripts": {
     "start": "node --loader ts-node/esm -r dotenv/config ./index.ts",
-    "build": "tsc --project tsconfig.json"
+    "build": "tsc --project tsconfig.json",
+    "e2e": "npx cypress run --browser chrome"
   },
   "dependencies": {
     "@testerloop/testerloop-app": "^0.1.1"
   },
   "devDependencies": {
+    "cypress": "^12.13.0",
     "dotenv": "^16.0.3",
     "ts-node": "^10.9.1"
   }
